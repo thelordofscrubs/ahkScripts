@@ -7,8 +7,14 @@ Loop {
         break
     }
     if (KeyIsDown := GetKeyState("LButton", "P")) {
-        Send Bot with Morg{Enter}
+        Send Bot with yo1324{Enter}
         Sleep, 100
     }
+    Sleep, 10
 }
+return
+
+!k::
+#InstallKeybdHook
+KeyHistory
 return

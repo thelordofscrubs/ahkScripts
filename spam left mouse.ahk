@@ -5,9 +5,7 @@ Loop {
     if (not Toggle){
         break
     }
-    if (KeyIsDown := GetKeyState("LShift", "P")){
         Click
-        Sleep, 2
-    }
+        Sleep, 20
 }
 return
