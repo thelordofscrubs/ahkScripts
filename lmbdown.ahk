@@ -4,10 +4,10 @@ SendMode Input
 Numpad9::
     Toggle := !Toggle
     if Toggle {
-        Send {Click, R, D}
+        Send {Click, L, D}
         BlockInput, On
     }
     else {
-        Send {Click, R, U}
+        Send {Click, L, U}
         BlockInput, Off
     }
